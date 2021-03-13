@@ -1,0 +1,68 @@
+/*main font: "Roboto" 400,500,700,900
+  secont font: "Raleway" 700
+*/
+
+:root {
+  --main-interactiv-color: #2196f3;
+  --main-text-color: #757575;
+  --main-title-color: #212121;
+  --main-font: "Roboto", sans-serif;
+  --backgrount-footer: #2f303a;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-title-color);
+  letter-spacing: 0.03em;
+}
+
+/*убираем точки у всех списков*/
+.features,
+.team,
+.what-we-do,
+.main-menu,
+.header-address {
+  list-style: none;
+}
+
+.main-menu:hover,
+.main-menu:focus {
+  color: var(--main-interactiv-color);
+}
+
+.main-menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.logo-header {
+  color: #000000;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.logo-footer {
+  color: #000000;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.logo-web {
+  color: var(--main-interactiv-color);
+}
+
+.main-title {
+}
+
+.second-title {
+}
+
+.footer {
+  background-color: var(--backgrount-footer);
+}
+
+.logo-footer {
+  color: #ffffff;
+}

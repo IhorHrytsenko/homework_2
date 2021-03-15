@@ -41,12 +41,27 @@ body {
   color: var(--main-interactiv-color);
 }
 
+.menu-link,
+.address-link{
+    text-decoration: none;
+    
+}
+
+.menu-link{
+    color: var(--main-title-color);
+}
+
+.address-link{
+    color:var(--main-text-color);
+}
+
 .logo-header {
   color: #000000;
   font-weight: 700;
   font-family: "Raleway";
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo-web {
@@ -64,6 +79,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
 }
 
 .main-title {
@@ -96,7 +112,7 @@ body {
 }
 
 .features-title {
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -138,9 +154,12 @@ body {
   font-family: "Raleway";
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .footer-address {
+  font-family: "Roboto";
+  font-style: normal;
   color: var(--background-light-text);
   line-height: 1.71;
 }
@@ -150,6 +169,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--background-link-text);
+  text-decoration: none;
 }
 
 /*страница portfolio.html*/
